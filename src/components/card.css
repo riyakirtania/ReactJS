@@ -1,0 +1,158 @@
+.Card{
+    margin:0px;
+    padding:0px;
+    width:100%;   
+    height: 100vh;
+    overflow-y: none;
+}
+
+.CardWrapper{
+    background-color: aqua;
+    height:40px;
+    padding:10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Topbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cartImg,  .cartvalue, .cartL{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Logo{
+    border:1px solid black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+}
+
+.Topbarheading{
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 8px;
+}
+
+.TopbarImg{
+    position:relative;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-solid{
+    font-size: 24px!important;
+}
+
+.topround{
+    border:1px solid black;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+    top: -6px;
+    left: 20px;
+    z-index: 1;
+    background-color: white;
+    color: #0e0e0e;
+}
+
+.TopNo{
+    font-size:10px; 
+    font-weight: 500;
+}
+
+.cart{
+    padding: 10px;
+}
+
+.cartInfo{
+    margin-top: 10px;
+    margin-left:10px;
+}
+
+.cartdes{
+    margin-top: 6px;
+    margin-left:10px;
+}
+
+.cartsection{
+    overflow-y: scroll;
+    height:400px;
+    margin:20px;
+    background-color: rgb(221, 220, 220);
+    padding:20px;
+    border-radius: 4px;
+}
+
+.cartf{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    width: 100%;
+}
+
+.cartImg img{
+    width: 200px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+hr{
+    margin: 8px;
+    margin-left: 50px;
+    width: 95%!important;
+}
+
+.cartcolor{
+    padding-top: 2px;
+    color:rgb(8, 83, 83);
+}
+
+.cartnumber{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cartno{
+    margin:15px;
+    border:1px solid black;
+    padding: 3px;
+    width: 26px!important;
+    height: 26px!important;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.cartv{
+    font-size: 22px;
+    font-weight: 500;
+
+}
+
+.carttotal{
+    display: flex;
+    justify-content: flex-end;
+    margin:20px;
+}
+
+.cartr{
+    padding-left: 4px;
+    font-weight: 700;
+}
